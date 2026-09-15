@@ -27,6 +27,7 @@ if __name__ == "__main__":
     print(f"{Peter.name} enters the arena with {Peter.health} health.")
     heroAttack = Peter.attack()
     goblintwo.health - heroAttack
+    goblinAttack = goblintwo.attack()
     Peter.take_damage(goblinAttack)
 =======
     if __name__ == "__main__":
