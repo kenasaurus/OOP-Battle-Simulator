@@ -20,16 +20,6 @@ def main():
     print(f"{goblintwo.name} enters the arena with {goblintwo.health} health.")
     print("But no hero has answered the call... yet.")
 
-<<<<<<< Updated upstream
-if __name__ == "__main__":
-    Peter = Hero("Peter")
-    goblintwo = Goblin("Sribble")
-    print(f"{Peter.name} enters the arena with {Peter.health} health.")
-    heroAttack = Peter.attack()
-    goblintwo.health - heroAttack
-    goblinAttack = goblintwo.attack()
-    Peter.take_damage(goblinAttack)
-=======
     if __name__ == "__main__":
         Peter = Hero("Peter")
         goblintwo = Goblin("Sribble")
@@ -38,6 +28,5 @@ if __name__ == "__main__":
         goblintwo.health - heroAttack
         goblinAttack = goblintwo.attack()
         Peter.take_damage(goblinAttack)
->>>>>>> Stashed changes
 
 main()
